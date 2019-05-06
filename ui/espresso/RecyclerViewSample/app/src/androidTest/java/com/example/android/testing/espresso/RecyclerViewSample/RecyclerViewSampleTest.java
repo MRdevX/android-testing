@@ -54,7 +54,7 @@ public class RecyclerViewSampleTest {
      */
     @Rule
     public ActivityScenarioRule<MainActivity> activityScenarioRule =
-        new ActivityScenarioRule<MainActivity>(MainActivity.class);
+        new ActivityScenarioRule<>(MainActivity.class);
 
     @Test
     public void scrollToItemBelowFold_checkItsText() {
