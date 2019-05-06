@@ -67,7 +67,7 @@ public class HintMatchersTest {
      * {@link ActivityScenarioRule} will create and launch of the activity for you.
      */
     @Rule public ActivityScenarioRule<MainActivity> activityScenarioRule =
-        new ActivityScenarioRule<MainActivity>(MainActivity.class);
+        new ActivityScenarioRule<>(MainActivity.class);
 
     @Before
     public void initValidStrings() {
